@@ -41,7 +41,7 @@ const Pokedex = () => {
     const getPokemons = async () => {
       try {
         const ret = await fetch(
-          `http://localhost:3000/pokemon?${query ? `query=${query}&` : ''}${
+          `https://poke-api.blehhh.me/pokemon?${query ? `query=${query}&` : ''}${
             typesFilter.length ? `types=${typesFilter.join(',')}&` : ''
           }${attackFilter ? `attack=${attackFilter.join('-')}&` : ''}${
             experienceFilter ? `experience=${experienceFilter.join('-')}&` : ''

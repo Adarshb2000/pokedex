@@ -14,7 +14,7 @@ const Legendaries = () => {
   >([])
 
   useEffect(() => {
-    fetch('http://localhost:3000/legendaries')
+    fetch('https://poke-api.blehhh.me/legendaries')
       .then((ret) => ret.json())
       .then((res) => {
         setLegendaries(res.data)
