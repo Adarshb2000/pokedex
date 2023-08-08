@@ -1,0 +1,640 @@
+[
+    {
+        "name": "Bulbasaur",
+        "base_experience": 64,
+        "abilities": [
+            "overgrow",
+            "chlorophyll"
+        ],
+        "type": "Grass",
+        "stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special-attack": 65,
+            "special-defense": 65,
+            "experience": 70
+        },
+        "weakness": "Water",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "generation": 2
+    },
+    {
+        "name": "Charmander",
+        "base_experience": 62,
+        "abilities": [
+            "blaze",
+            "solar-power"
+        ],
+        "type": "Fire",
+        "stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special-attack": 60,
+            "special-defense": 50,
+            "experience": 99
+        },
+        "weakness": "Fairy",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "generation": 4
+    },
+    {
+        "name": "Squirtle",
+        "base_experience": 63,
+        "abilities": [
+            "torrent",
+            "rain-dish"
+        ],
+        "type": "Water",
+        "stats": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "special-attack": 50,
+            "special-defense": 64,
+            "experience": 80
+        },
+        "weakness": "Ghost",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "generation": 3
+    },
+    {
+        "name": "Pikachu",
+        "base_experience": 112,
+        "abilities": [
+            "static",
+            "lightning-rod"
+        ],
+        "type": "Electric",
+        "stats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 50,
+            "experience": 100
+        },
+        "weakness": "Psychic",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "generation": 4
+    },
+    {
+        "name": "Jigglypuff",
+        "base_experience": 95,
+        "abilities": [
+            "cute-charm",
+            "competitive"
+        ],
+        "type": "Normal",
+        "stats": {
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "special-attack": 45,
+            "special-defense": 25,
+            "experience": 49
+        },
+        "weakness": "Electric",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+        "generation": 3
+    },
+    {
+        "name": "Psyduck",
+        "base_experience": 64,
+        "abilities": [
+            "damp",
+            "cloud-nine"
+        ],
+        "type": "Water",
+        "stats": {
+            "hp": 50,
+            "attack": 52,
+            "defense": 48,
+            "special-attack": 65,
+            "special-defense": 50,
+            "experience": 73
+        },
+        "weakness": "Ice",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+        "generation": 5
+    },
+    {
+        "name": "Meowth",
+        "base_experience": 58,
+        "abilities": [
+            "pickup",
+            "technician"
+        ],
+        "type": "Normal",
+        "stats": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special-attack": 40,
+            "special-defense": 40,
+            "experience": 100
+        },
+        "weakness": "Fire",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+        "generation": 4
+    },
+    {
+        "name": "Geodude",
+        "base_experience": 60,
+        "abilities": [
+            "rock-head",
+            "sturdy"
+        ],
+        "type": "Rock",
+        "stats": {
+            "hp": 40,
+            "attack": 80,
+            "defense": 100,
+            "special-attack": 30,
+            "special-defense": 30,
+            "experience": 60
+        },
+        "weakness": "Ghost",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+        "generation": 2
+    },
+    {
+        "name": "Onix",
+        "base_experience": 77,
+        "abilities": [
+            "rock-head",
+            "sturdy"
+        ],
+        "type": "Rock",
+        "stats": {
+            "hp": 35,
+            "attack": 45,
+            "defense": 160,
+            "special-attack": 30,
+            "special-defense": 45,
+            "experience": 41
+        },
+        "weakness": "Electric",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+        "generation": 2
+    },
+    {
+        "name": "Cubone",
+        "base_experience": 64,
+        "abilities": [
+            "rock-head",
+            "lightning-rod"
+        ],
+        "type": "Ground",
+        "stats": {
+            "hp": 50,
+            "attack": 50,
+            "defense": 95,
+            "special-attack": 40,
+            "special-defense": 50,
+            "experience": 75
+        },
+        "weakness": "Fire",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+        "generation": 4
+    },
+    {
+        "name": "Starmie",
+        "base_experience": 182,
+        "abilities": [
+            "illuminate",
+            "natural-cure"
+        ],
+        "type": "Water",
+        "stats": {
+            "hp": 60,
+            "attack": 75,
+            "defense": 85,
+            "special-attack": 100,
+            "special-defense": 85,
+            "experience": 52
+        },
+        "weakness": "Ice",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+        "generation": 2
+    },
+    {
+        "name": "Gyarados",
+        "base_experience": 189,
+        "abilities": [
+            "intimidate",
+            "moxie"
+        ],
+        "type": "Water",
+        "stats": {
+            "hp": 95,
+            "attack": 125,
+            "defense": 79,
+            "special-attack": 60,
+            "special-defense": 100,
+            "experience": 75
+        },
+        "weakness": "Ghost",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+        "generation": 3
+    },
+    {
+        "name": "Snorlax",
+        "base_experience": 189,
+        "abilities": [
+            "immunity",
+            "thick-fat"
+        ],
+        "type": "Normal",
+        "stats": {
+            "hp": 160,
+            "attack": 110,
+            "defense": 65,
+            "special-attack": 65,
+            "special-defense": 110,
+            "experience": 55
+        },
+        "weakness": "Electric",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+        "generation": 4
+    },
+    {
+        "name": "Mewtwo",
+        "base_experience": 340,
+        "abilities": [
+            "pressure",
+            "unnerve"
+        ],
+        "type": "Psychic",
+        "stats": {
+            "hp": 106,
+            "attack": 110,
+            "defense": 90,
+            "special-attack": 154,
+            "special-defense": 90,
+            "experience": 56
+        },
+        "weakness": "Psychic",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+        "generation": 4
+    },
+    {
+        "name": "Pidgeotto",
+        "base_experience": 122,
+        "abilities": [
+            "keen-eye",
+            "tangled-feet"
+        ],
+        "type": "Normal",
+        "stats": {
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "special-attack": 50,
+            "special-defense": 50,
+            "experience": 97
+        },
+        "weakness": "Fairy",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+        "generation": 5
+    },
+    {
+        "name": "Gastly",
+        "base_experience": 62,
+        "abilities": [
+            "levitate"
+        ],
+        "type": "Ghost",
+        "stats": {
+            "hp": 30,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 100,
+            "special-defense": 35,
+            "experience": 48
+        },
+        "weakness": "Poison",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+        "generation": 4
+    },
+    {
+        "name": "Kingler",
+        "base_experience": 166,
+        "abilities": [
+            "hyper-cutter",
+            "shell-armor"
+        ],
+        "type": "Water",
+        "stats": {
+            "hp": 55,
+            "attack": 130,
+            "defense": 115,
+            "special-attack": 50,
+            "special-defense": 50,
+            "experience": 54
+        },
+        "weakness": "Poison",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+        "generation": 1
+    },
+    {
+        "name": "Butterfree",
+        "base_experience": 198,
+        "abilities": [
+            "compound-eyes",
+            "tinted-lens"
+        ],
+        "type": "Bug",
+        "stats": {
+            "hp": 60,
+            "attack": 45,
+            "defense": 50,
+            "special-attack": 90,
+            "special-defense": 80,
+            "experience": 52
+        },
+        "weakness": "Electric",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+        "generation": 1
+    },
+    {
+        "name": "Clefairy",
+        "base_experience": 113,
+        "abilities": [
+            "cute-charm",
+            "magic-guard"
+        ],
+        "type": "Fairy",
+        "stats": {
+            "hp": 70,
+            "attack": 45,
+            "defense": 48,
+            "special-attack": 60,
+            "special-defense": 65,
+            "experience": 83
+        },
+        "weakness": "Psychic",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+        "generation": 5
+    },
+    {
+        "name": "Dugtrio",
+        "base_experience": 149,
+        "abilities": [
+            "sand-veil",
+            "arena-trap"
+        ],
+        "type": "Ground",
+        "stats": {
+            "hp": 35,
+            "attack": 100,
+            "defense": 50,
+            "special-attack": 50,
+            "special-defense": 70,
+            "experience": 94
+        },
+        "weakness": "Fairy",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+        "generation": 2
+    },
+    {
+        "name": "Staryu",
+        "base_experience": 68,
+        "abilities": [
+            "illuminate",
+            "natural-cure"
+        ],
+        "type": "Water",
+        "stats": {
+            "hp": 30,
+            "attack": 45,
+            "defense": 55,
+            "special-attack": 70,
+            "special-defense": 55,
+            "experience": 86
+        },
+        "weakness": "Water",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+        "generation": 5
+    },
+    {
+        "name": "Ditto",
+        "base_experience": 101,
+        "abilities": [
+            "limber",
+            "imposter"
+        ],
+        "type": "Normal",
+        "stats": {
+            "hp": 48,
+            "attack": 48,
+            "defense": 48,
+            "special-attack": 48,
+            "special-defense": 48,
+            "experience": 79
+        },
+        "weakness": "Ghost",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+        "generation": 2
+    },
+    {
+        "name": "Magikarp",
+        "base_experience": 40,
+        "abilities": [
+            "swift-swim",
+            "rattled"
+        ],
+        "type": "Water",
+        "stats": {
+            "hp": 20,
+            "attack": 10,
+            "defense": 55,
+            "special-attack": 15,
+            "special-defense": 20,
+            "experience": 41
+        },
+        "weakness": "Electric",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+        "generation": 2
+    },
+    {
+        "name": "Togepi",
+        "base_experience": 49,
+        "abilities": [
+            "hustle",
+            "serene-grace"
+        ],
+        "type": "Fairy",
+        "stats": {
+            "hp": 35,
+            "attack": 20,
+            "defense": 65,
+            "special-attack": 40,
+            "special-defense": 65,
+            "experience": 44
+        },
+        "weakness": "Ghost",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
+        "generation": 4
+    },
+    {
+        "name": "Wobbuffet",
+        "base_experience": 142,
+        "abilities": [
+            "shadow-tag",
+            "telepathy"
+        ],
+        "type": "Psychic",
+        "stats": {
+            "hp": 190,
+            "attack": 33,
+            "defense": 58,
+            "special-attack": 33,
+            "special-defense": 58,
+            "experience": 49
+        },
+        "weakness": "Electric",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/202.png",
+        "generation": 5
+    },
+    {
+        "name": "Bayleef",
+        "base_experience": 142,
+        "abilities": [
+            "overgrow",
+            "leaf-guard"
+        ],
+        "type": "Grass",
+        "stats": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 80,
+            "special-attack": 63,
+            "special-defense": 80,
+            "experience": 90
+        },
+        "weakness": "Ice",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
+        "generation": 4
+    },
+    {
+        "name": "Eevee",
+        "base_experience": 65,
+        "abilities": [
+            "run-away",
+            "adaptability"
+        ],
+        "type": "Normal",
+        "stats": {
+            "hp": 55,
+            "attack": 55,
+            "defense": 50,
+            "special-attack": 45,
+            "special-defense": 65,
+            "experience": 48
+        },
+        "weakness": "Electric",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+        "generation": 1
+    },
+    {
+        "name": "Weezing",
+        "base_experience": 172,
+        "abilities": [
+            "levitate",
+            "neutralizing-gas"
+        ],
+        "type": "Poison",
+        "stats": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 120,
+            "special-attack": 85,
+            "special-defense": 70,
+            "experience": 82
+        },
+        "weakness": "Psychic",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+        "generation": 3
+    },
+    {
+        "name": "Gengar",
+        "base_experience": 250,
+        "abilities": [
+            "cursed-body"
+        ],
+        "type": "Ghost",
+        "stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 130,
+            "special-defense": 75,
+            "experience": 75
+        },
+        "weakness": "Water",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+        "generation": 5
+    },
+    {
+        "name": "Ponyta",
+        "base_experience": 82,
+        "abilities": [
+            "run-away",
+            "flash-fire"
+        ],
+        "type": "Fire",
+        "stats": {
+            "hp": 50,
+            "attack": 85,
+            "defense": 55,
+            "special-attack": 65,
+            "special-defense": 65,
+            "experience": 89
+        },
+        "weakness": "Ghost",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+        "generation": 1
+    },
+    {
+        "name": "Poliwrath",
+        "base_experience": 255,
+        "abilities": [
+            "water-absorb",
+            "damp"
+        ],
+        "type": "Water",
+        "stats": {
+            "hp": 90,
+            "attack": 95,
+            "defense": 95,
+            "special-attack": 70,
+            "special-defense": 90,
+            "experience": 99
+        },
+        "weakness": "Electric",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+        "generation": 4
+    },
+    {
+        "name": "Arcanine",
+        "base_experience": 194,
+        "abilities": [
+            "intimidate",
+            "flash-fire"
+        ],
+        "type": "Fire",
+        "stats": {
+            "hp": 90,
+            "attack": 110,
+            "defense": 80,
+            "special-attack": 100,
+            "special-defense": 80,
+            "experience": 47
+        },
+        "weakness": "Normal",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+        "generation": 4
+    }
+]

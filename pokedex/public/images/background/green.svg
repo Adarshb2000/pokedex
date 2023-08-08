@@ -1,0 +1,11 @@
+<svg width="233" height="138" viewBox="0 0 233 138" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cardBoxImg">
+<path id="Rectangle 14" d="M0.748047 0.682617H224.999C229.417 0.682617 232.999 4.26434 232.999 8.68262V129.544C232.999 133.962 229.417 137.544 224.999 137.544H0.748047V0.682617Z" fill="url(#paint0_linear_884_3262)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_884_3262" x1="232.642" y1="0.682617" x2="0.748047" y2="0.682617" gradientUnits="userSpaceOnUse">
+<stop stop-color="#64D368"/>
+<stop offset="0.708333" stop-color="#64D368"/>
+</linearGradient>
+</defs>
+</svg>

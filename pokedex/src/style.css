@@ -1,0 +1,109 @@
+/* variables and defaults */
+:root {
+  --primary: #d93e30;
+  --secondary: #f28f16;
+  --third: #f5db13;
+  --danger: #d93e30;
+  --white: #f2f2f2;
+  --dark: #212121;
+
+  --yellow-gradient: linear-gradient(180deg, #f5db13 0%, #f2b807 100%);
+  --pink-gradient: linear-gradient(180deg, #e40d85 0%, #990c58 100%);
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem calc((100% - 48rem) * 0.15 + 1.5rem);
+}
+
+.shift-right {
+  margin-left: auto;
+}
+
+#modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+#modal > div {
+  height: 100%;
+}
+
+#modal:empty {
+  display: none;
+}
+
+.close-icon {
+  width: 2rem;
+  position: absolute;
+}
+
+footer {
+  margin-top: auto;
+  color: white;
+}
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* Utility classes */
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.ability {
+  width: 11.61338rem;
+  height: 3.14019rem;
+
+  & h5,
+  h6 {
+    font-size: 1rem;
+  }
+
+  & h5 {
+    font-weight: 700;
+  }
+
+  & > div {
+    background: #f6f7f9;
+    border-radius: 2rem;
+    height: 0.5rem;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .container {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  footer > div {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,93 @@
+.mobile-filter {
+  display: flex;
+  flex-direction: column;
+  background: var(--yellow-gradient);
+  height: fit-content;
+  padding: 2rem;
+  gap: 1rem;
+
+  .close-btn {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  & h4 {
+    color: #000;
+    font-family: Rubik;
+    font-size: 1.4375rem;
+  }
+
+  > hr {
+    height: 0.2rem;
+  }
+}
+
+.mobile-filter-types {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 33%);
+
+  > label {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  > button {
+    text-align: center;
+  }
+}
+
+.apply-button {
+  border-radius: 0.6875rem;
+  background: #73d677;
+  padding: 0.25rem 1rem;
+  width: fit-content;
+  /* margin-left: 80%; */
+}
+
+.mobile-filters-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.filter-card-container {
+  padding: 1rem;
+  background: #fdfdfd;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    align-self: center;
+
+    > hr {
+      width: 1rem;
+      height: 0.1rem;
+      background: #000;
+    }
+
+    > label {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    & input[type='number'] {
+      border-radius: 1rem;
+      background: var(--grey, #f6f7f9);
+
+      /* Filter */
+      box-shadow: 2px 2px 2px 0px rgba(33, 33, 33, 0.1);
+      width: 8rem;
+      padding-left: 0.75rem;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.home {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.cover-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  width: 100%;
+  flex-basis: auto;
+}
+
+.home h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+  max-width: 100%;
+}
+
+.home p {
+  width: 32rem;
+  max-width: 100%;
+  font-size: 2rem;
+}
+
+.btn {
+  width: 14.4375rem;
+  height: 4.125rem;
+  flex-shrink: 0;
+  background: #73d677;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6875rem;
+  background: #73d677;
+  box-shadow: 0px -9px 0px 0px rgba(0, 0, 0, 0.18) inset;
+  font-size: 1.4375rem;
+  font-weight: 700;
+}
+
+.banner {
+  z-index: 9999;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 48rem) {
+  .home {
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+  .cover-text {
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .home h1 {
+    font-size: 2.625rem;
+  }
+  .home p {
+    font-size: 1.5rem;
+  }
+}
