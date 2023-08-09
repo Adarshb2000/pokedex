@@ -7,7 +7,7 @@ const Card = ({ pokemon }: { pokemon: Pokemon }) => {
     <div
       className="card"
       style={{
-        backgroundImage: `url(public/images/background/${backgrounds.get(
+        backgroundImage: `url(images/background/${backgrounds.get(
           pokemon.type
         )}.svg)`,
       }}

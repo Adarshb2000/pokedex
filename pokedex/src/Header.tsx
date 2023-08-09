@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header>
       <div className="container flex-container h-full">
-        <img src="/public/images/logo.svg" alt="logo" className="logo" />
+        <img src="/images/logo.svg" alt="logo" className="logo" />
         {mobileView ? (
           <div className="shift-right">
             <button
@@ -26,7 +26,7 @@ const Header = () => {
               }}
               className="mobile-nav-open"
             >
-              <img src="/public/images/burgen-btn.svg" alt="menuButton" />
+              <img src="/images/burgen-btn.svg" alt="menuButton" />
             </button>
           </div>
         ) : (
@@ -42,10 +42,10 @@ const Header = () => {
                 showModal(false)
               }}
             >
-              <img src="public/images/close-icon.svg" alt="close" />
+              <img src="images/close-icon.svg" alt="close" />
             </button>
             <Link to="/">
-              <img src="public/images/logo.svg" alt="Logo" />
+              <img src="images/logo.svg" alt="Logo" />
             </Link>
             <Navbar />
           </div>

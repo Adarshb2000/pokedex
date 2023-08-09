@@ -27,7 +27,7 @@ const MobileFilter = ({
   return (
     <div className="mobile-filter">
       <button className="close-btn" onClick={closeAction}>
-        <img src="public/images/close-icon.svg" alt="close" />
+        <img src="images/close-icon.svg" alt="close" />
       </button>
       <div className="mobile-filters-container">
         <h4>Type</h4>

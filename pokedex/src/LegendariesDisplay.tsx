@@ -15,7 +15,7 @@ const LegendaryCard = ({
       <img src={`data:image/png;base64,${pokemon.image}`} alt="pokemon" />
       <p>
         <span>{pokemon.name}</span>
-        <img src="public/images/golden-pokeball.svg" alt="pokeball" />
+        <img src="images/golden-pokeball.svg" alt="pokeball" />
       </p>
     </div>
   )
@@ -65,7 +65,7 @@ const LegendariesDisplay = ({
             })
           }}
         >
-          <img src="public/images/arrow-left.svg" alt="" />
+          <img src="images/arrow-left.svg" alt="" />
         </button>
         <div>
           {legendary.pokemons.map((pokemon, index) => (
@@ -89,7 +89,7 @@ const LegendariesDisplay = ({
             setActivePokemon((activePokemon + 1) % legendary.pokemons.length)
           }}
         >
-          <img src="public/images/arrow-right.svg" alt="" />
+          <img src="images/arrow-right.svg" alt="" />
         </button>
       </div>
     </div>

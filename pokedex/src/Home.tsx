@@ -25,7 +25,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="banner">
-        <img src="public/images/banner.png" alt="banner" />
+        <img src="images/banner.png" alt="banner" />
       </div>
     </div>
   )

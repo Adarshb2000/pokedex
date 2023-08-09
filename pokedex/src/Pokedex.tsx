@@ -41,9 +41,11 @@ const Pokedex = () => {
     const getPokemons = async () => {
       try {
         const ret = await fetch(
-          `https://poke-api.blehhh.me/pokemon?${query ? `query=${query}&` : ''}${
-            typesFilter.length ? `types=${typesFilter.join(',')}&` : ''
-          }${attackFilter ? `attack=${attackFilter.join('-')}&` : ''}${
+          `https://poke-api.blehhh.me/pokemon?${
+            query ? `query=${query}&` : ''
+          }${typesFilter.length ? `types=${typesFilter.join(',')}&` : ''}${
+            attackFilter ? `attack=${attackFilter.join('-')}&` : ''
+          }${
             experienceFilter ? `experience=${experienceFilter.join('-')}&` : ''
           }page=${page}&pageSize=${pageSize}`
         )
@@ -197,7 +199,7 @@ const Pokedex = () => {
             closeButton={
               <button>
                 <img
-                  src="public/images/close-icon.svg"
+                  src="images/close-icon.svg"
                   alt="close"
                   onClick={() => {
                     showCardModal(false)

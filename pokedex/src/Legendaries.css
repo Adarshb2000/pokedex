@@ -100,7 +100,7 @@
 .legendary-card {
   width: 8rem;
   height: 11rem;
-  background: url('/public/images/background/golden.svg');
+  background: url('/images/background/golden.svg');
   position: relative;
   opacity: 0.5;
   flex-shrink: 0;

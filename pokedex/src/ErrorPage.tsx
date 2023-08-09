@@ -5,7 +5,7 @@ const ErrorPage = () => {
   return (
     <div className="error-page container">
       <div>
-        <img src="public/images/team-rocket.png" alt="team-rocket" />
+        <img src="images/team-rocket.png" alt="team-rocket" />
         <h1>404</h1>
       </div>
       <h2>
