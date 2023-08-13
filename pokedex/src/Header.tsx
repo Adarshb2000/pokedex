@@ -34,8 +34,8 @@ const Header = () => {
         )}
       </div>
       {modal ? (
-        <Modal className="mobile-nav" closeModal={() => showModal(false)}>
-          <div>
+        <Modal closeModal={() => showModal(false)}>
+          <div className="mobile-nav">
             <button
               className="close-icon"
               onClick={() => {

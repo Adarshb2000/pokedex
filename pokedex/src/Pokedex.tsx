@@ -10,10 +10,7 @@ import { POKEMON_TYPES } from './config'
 import MobileFilter from './MobileFilter'
 
 const Pokedex = () => {
-  document.getElementsByTagName('body')[0].style.background = 'white'
-  document
-    .getElementsByTagName('footer')[0]
-    ?.style.setProperty('color', 'black')
+  document.body.style.background = 'white'
   const [pokemons, setPokemons] = useState<Pokemon[]>([])
   const [count, setCount] = useState(0)
   const [page, setPage] = useState(1)

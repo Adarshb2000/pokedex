@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Ability from './Ability'
 import './Legendaries.css'
 import { LegendaryPokemon } from './types'
+import { useRef } from 'react'
 
 const LegendaryCard = ({
   pokemon,
@@ -27,8 +28,7 @@ const LegendariesDisplay = ({
   legendary: { type: string; pokemons: LegendaryPokemon[] }
 }) => {
   const [activePokemon, setActivePokemon] = useState(0)
-  console.log(typeof legendary.pokemons[0].image.data)
-
+  const pokemonCards = useRef<HTMLDivElement | null>(null)
   return (
     <div className="legendaries">
       <h1>{legendary.type}</h1>
@@ -58,7 +58,9 @@ const LegendariesDisplay = ({
               (activePokemon - 1 + legendary.pokemons.length) %
                 legendary.pokemons.length
             )
-            document.querySelector('.legendary-card.active')?.scrollIntoView({
+            pokemonCards.current?.children[
+              (activePokemon + 1) % legendary.pokemons.length
+            ]?.scrollIntoView({
               block: 'nearest',
               behavior: 'smooth',
               inline: 'center',
@@ -67,7 +69,7 @@ const LegendariesDisplay = ({
         >
           <img src="images/arrow-left.svg" alt="" />
         </button>
-        <div>
+        <div ref={pokemonCards}>
           {legendary.pokemons.map((pokemon, index) => (
             <button onClick={() => setActivePokemon(index)}>
               <LegendaryCard
@@ -81,7 +83,9 @@ const LegendariesDisplay = ({
         <button
           className="shift-right"
           onClick={() => {
-            document.querySelector('.legendary-card.active')?.scrollIntoView({
+            pokemonCards.current?.children[
+              (activePokemon + 1) % legendary.pokemons.length
+            ]?.scrollIntoView({
               block: 'nearest',
               behavior: 'smooth',
               inline: 'center',

@@ -2,13 +2,10 @@ import './Home.css'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
-  document.getElementsByTagName('body')[0]!.style.background =
-    'var(--yellow-gradient)'
-  document.getElementsByTagName('body')[0].style.backgroundRepeat = 'no-repeat'
-  document.getElementsByTagName('body')[0].style.backgroundAttachment = 'fixed'
-  document
-    .getElementsByTagName('footer')[0]
-    ?.style.setProperty('color', 'black')
+  const body = document.body
+  body!.style.background = 'var(--yellow-gradient)'
+  body!.style.backgroundRepeat = 'no-repeat'
+  body!.style.backgroundAttachment = 'fixed'
   return (
     <div className="home">
       <div className="cover-text">

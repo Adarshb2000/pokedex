@@ -4,17 +4,14 @@ import { LegendaryPokemon } from './types'
 import LegendariesDisplay from './LegendariesDisplay'
 
 const Legendaries = () => {
-  document.getElementsByTagName('body')[0].style.background = 'black'
-  document
-    .getElementsByTagName('footer')[0]
-    ?.style.setProperty('color', 'white')
+  document.body.style.background = 'black'
 
   const [legendaries, setLegendaries] = useState<
     { type: string; pokemons: LegendaryPokemon[] }[]
   >([])
 
   useEffect(() => {
-    fetch('https://poke-api.blehhh.me/legendaries')
+    fetch('http://localhost:3000/legendaries')
       .then((ret) => ret.json())
       .then((res) => {
         setLegendaries(res.data)
