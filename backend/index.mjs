@@ -43,6 +43,8 @@ app.get('/pokemon', (req, res) => {
 
   if (experienceRange.length !== 2) experienceRange.push(Infinity)
 
+  console.log(attackRange, experienceRange)
+
   const data = POKEMON_DATA.filter((data) => {
     const queryFilter =
       data.name.toLowerCase().indexOf(query.toLowerCase()) !== -1

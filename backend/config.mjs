@@ -57,6 +57,8 @@ export const generateLegendaries = () => {
       'Dragonair',
       'Flareon',
       'Moltres',
+      'Xerneas',
+      'Zapdos',
     ],
     stronger: [
       'Xerneas',
@@ -65,8 +67,19 @@ export const generateLegendaries = () => {
       'Dragonair',
       'Flareon',
       'Moltres',
+      'MewTwo',
+      'Zapdos',
     ],
-    weaker: ['Zapdos', 'Articuno', 'Diance', 'Dragonair', 'Flareon', 'Moltres'],
+    weaker: [
+      'Zapdos',
+      'Articuno',
+      'Diance',
+      'Dragonair',
+      'Flareon',
+      'MewTwo',
+      'Moltres',
+      'Xerneas',
+    ],
   }
   return Object.entries(bleh).map(([type, pokemons]) => {
     return {
@@ -74,10 +87,9 @@ export const generateLegendaries = () => {
       pokemons: pokemons.map((pokemon) => {
         return {
           name: pokemon,
-          description: Array.from(
-            { length: randint(35, 50) },
-            wordGenerator
-          ).join(' '),
+          description: Array.from({ length: randint(35, 50) }, wordGenerator)
+            .join(' ')
+            .slice(0, 150),
           image: Buffer.from(
             readFileSync(`legendaries-images/${pokemon}.png`)
           ).toString('base64'),
