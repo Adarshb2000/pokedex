@@ -6,7 +6,7 @@ import Modal from './Modal'
 import Card from './Card'
 import DetailsCard from './DetailsCard'
 import { Pokemon } from './types'
-import { POKEMON_TYPES } from './config'
+import { POKEMON_TYPES, host } from './config'
 import MobileFilter from './MobileFilter'
 
 const Pokedex = () => {
@@ -38,11 +38,9 @@ const Pokedex = () => {
     const getPokemons = async () => {
       try {
         const ret = await fetch(
-          `https://poke-api.blehhh.me/pokemon?${
-            query ? `query=${query}&` : ''
-          }${typesFilter.length ? `types=${typesFilter.join(',')}&` : ''}${
-            attackFilter ? `attack=${attackFilter.join('-')}&` : ''
-          }${
+          `${host}/pokemon?${query ? `query=${query}&` : ''}${
+            typesFilter.length ? `types=${typesFilter.join(',')}&` : ''
+          }${attackFilter ? `attack=${attackFilter.join('-')}&` : ''}${
             experienceFilter ? `experience=${experienceFilter.join('-')}&` : ''
           }page=${page}&pageSize=${pageSize}`
         )
@@ -52,6 +50,7 @@ const Pokedex = () => {
         console.log(pokemons)
         setPokemons(pokemons)
         setCount(count)
+        setPage(1)
       } catch (e) {
         console.log(e)
       }

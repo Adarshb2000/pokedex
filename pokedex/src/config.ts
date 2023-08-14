@@ -52,3 +52,5 @@ export const POKEMON_TYPES = [
   'Ghost',
   'Fairy',
 ]
+
+export const host = 'http://localhost:3000'

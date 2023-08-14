@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './Legendaries.css'
 import { LegendaryPokemon } from './types'
 import LegendariesDisplay from './LegendariesDisplay'
+import { host } from './config'
 
 const Legendaries = () => {
   document.body.style.background = 'black'
@@ -11,7 +12,7 @@ const Legendaries = () => {
   >([])
 
   useEffect(() => {
-    fetch('http://localhost:3000/legendaries')
+    fetch(`${host}/legendaries`)
       .then((ret) => ret.json())
       .then((res) => {
         setLegendaries(res.data)
