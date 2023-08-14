@@ -59,7 +59,8 @@ const LegendariesDisplay = ({
                 legendary.pokemons.length
             )
             pokemonCards.current?.children[
-              (activePokemon + 1) % legendary.pokemons.length
+              (activePokemon - 1 + legendary.pokemons.length) %
+                legendary.pokemons.length
             ]?.scrollIntoView({
               block: 'nearest',
               behavior: 'smooth',

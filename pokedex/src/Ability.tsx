@@ -14,7 +14,7 @@ const Ability = ({
       <div>
         <div
           style={{
-            width: value / 15000 + '%',
+            width: value / 5 + '%',
             height: '100%',
             background: color,
           }}
